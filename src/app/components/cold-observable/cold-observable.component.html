@@ -1,0 +1,11 @@
+<h2>Cold Observable</h2>
+
+<p>A cold observable in the context of reactive programming and RxJS (Reactive Extensions for JavaScript) is 
+    an observable that does not begin to emit items until an observer subscribes to it. Each subscription to a cold
+     observable causes it to start its own independent execution sequence.
+</p>
+<p>Key characteristics:- Lazy Execution, Independent Subscriptions, Non-shared State(not share state among multiple subscriber).</p>
+
+<p>HTTP requests in Angular are a prime example of cold observables. Each time you subscribe to
+     an HTTP request observable, a new HTTP request is made to the server.
+</p>

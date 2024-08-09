@@ -1,0 +1,11 @@
+<h2>Hot Observable</h2>
+
+<p>Unlike cold observables, hot observables emit data regardless of the presence of subscribers. 
+    Subscribing to a hot observable means the subscriber will receive the current item being emitted, 
+    not from the start.
+</p>
+
+<p>WebSocket connections are an example of hot observables. A WebSocket connection is established once 
+    and shared among multiple subscribers.</p>
+
+    <button id="hello" class="btn btn-primary">Hello!</button>
